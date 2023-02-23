@@ -12,18 +12,22 @@
 
 <h1>Python examples</h1>
 
+<a id="markdown-description" name="description"></a>
+# Description
+
+This folder contains the installation process, some examples and how to use the Api_Python. If you need more information, you can access the full documentation on this website. https://docs.kinovarobotics.com/index.html 
 <h2>Table of Contents</h2>
 
 <!-- TOC -->
 
+- [Description](#description)
 - [Setup (Python environment)](#setup-python-environment)
   - [Required Python version and module](#required-python-version-and-module)
   - [Install Kortex Python API and required dependencies](#install-kortex-python-api-and-required-dependencies)
 - [How to use the examples](#how-to-use-the-examples)
-- [Python API documentation](#python-api-documentation)
 - [Reference](#reference)
-      - [useful links](#useful-links)
-  - [Back to root topic: **readme.md**](#back-to-root-topic-readmemd)
+  - [useful links](#useful-links)
+- [Back to root topic: **readme.md**](#back-to-root-topic-readmemd)
 
 <!-- /TOC -->
 
@@ -63,7 +67,13 @@ python -m pip install <whl relative fullpath name>.whl
 
 We assume the robot is using its default IP address: ``192.168.1.10``
 
-Before starting, ensure that you run the test in a safe area with some examples that contain movement. Also, verify that your robot is correctly afixed to the working surface.
+If you don't use the default IP address, you can add the argument --ip with the good IP of the robot.
+```sh
+python3 --ip 192.168.2.22 <example-file>.py
+```
+
+
+Before starting, ensure that you run the test in a safe area with some examples that contain movement. Also, verify that your robot is correctly fixed to the working surface.
 
 Prerequisites:
 + The examples require a wired network connection to your computer

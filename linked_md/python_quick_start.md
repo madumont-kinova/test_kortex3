@@ -16,16 +16,15 @@
 Here is some information to help you start with python. This information will help new python users.
 
 
-<!-- TOC -->
-
 <h1>Table of Contents </h1>
+
+<!-- TOC -->
 - [Description](#description)
 - [Python setup](#python-setup)
     - [Installation of Python & Python modules](#installation-of-basic-python--python-modules)
         - [Required installations](#mandatory-installations)
         - [Optional Python modules](#facultative-usefull-python-modules)
 - [Python overview](#python-overview)
-- [Back to root topic: **readme.md**](#back-to-root-topic-readmemd)
 
 <!-- /TOC -->
 
