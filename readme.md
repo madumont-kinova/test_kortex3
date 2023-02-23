@@ -12,11 +12,6 @@
 
 <h1>KINOVA<sup>®</sup> KORTEX 3™ API Reference</h1>
 
-<a id="markdown-description" name="description"></a>
-# Description
-
-The official repository contains documentation and examples explaining how to use the KINOVA<sup>®</sup> KORTEX 3™ API client with Python. The repository has been tested on Windows 10 and Ubuntu 20.04.
-
 <h1>Table of Contents</h1>
 
 <!-- TOC -->
@@ -25,13 +20,18 @@ The official repository contains documentation and examples explaining how to us
 - [Licensing](#licensing)
 - [Role of Google Protocol Buffer in Kortex API](#role-of-google-protocol-buffer-in-kortex-api)
   - [Quick Start for Python users](#quick-start-for-python-users)
-  - [Quick Start for modbus and Ethernet IP users](#quick-start-for-modbus-ethernet-ip-users)
+  - [Quick Start for Modbus and Ethernet IP users](#quick-start-for-modbus-ethernet-ip-users)
 - [Download links](#download-links)
 - [Build and Run instructions](#build-and-run-instructions)
 - [Reference](#reference)
       - [Useful Links](#useful-links)
 
 <!-- /TOC -->
+
+<a id="markdown-description" name="description"></a>
+# Description
+
+The official repository contains documentation and examples explaining how to use the KINOVA<sup>®</sup> KORTEX 3™ API client with Python. The repository has been tested on Windows 10 and Ubuntu 20.04.
 
 <a id="markdown-licensing" name="licensing"></a>
 # Licensing 
@@ -63,8 +63,8 @@ When using the Kortex API a developer will need to understand the Google Protoco
   - [Examples](./api_python/readme.md)
 
 <a id="markdown-quick-start-howto-modbus" name="quick-start-howto-modbus"></a>
-## Quick Start for modbus ethernet ip users
-The Kortex API offers a modbus interface and a ethernet ip interface to communicate with the robot.
+## Quick Start for Modbus and Ethernet Ip Users
+The robot handle the communication via a modbus interface and a ethernet ip interface. It is not done via the Kortex API.
 
 To communicate with the arm you must use the FieldBusAdapter plugin that Kinova provide.
 
@@ -81,11 +81,7 @@ To communicate with the arm you must use the FieldBusAdapter plugin that Kinova 
 
 | Firmware     | Release notes      | API |
 | :----------: | :-----------: | :-----------:|
-| [3.2.0](https://artifactory.kinovaapps.com:443/artifactory/generic-local-public/kortex/link6/3.2.0/link6-3.2.0-r.38.swu)   | [release notes](https://artifactory.kinovaapps.com:443/artifactory/generic-documentation-public/Documentation/Link%206/Technical%20documentation/User%20Guide/EN-eRN-020-Link-6-release-notes.pdf)    | [3.2.0](https://artifactory.kinovaapps.com:443/artifactory/generic-public/kortex/API/3.2.0/)|
-
-When following the link to Artifactory, to download the correct Python API, you have to select the package for your architecture on the left-hand side tree view and then click Download on the right-hand side:
-
- ![Artifactory](./linked_md/artifactory.png)
+| [3.2.0](https://artifactory.kinovaapps.com:443/artifactory/generic-local-public/kortex/link6/3.2.0/link6-3.2.0-r.38.swu)   | [release notes](https://artifactory.kinovaapps.com:443/artifactory/generic-documentation-public/Documentation/Link%206/Technical%20documentation/User%20Guide/EN-eRN-020-Link-6-release-notes.pdf)    | [3.2.0](https://artifactory.kinovaapps.com/artifactory/generic-public/kortex/API/3.2.0/kortex_api-3.2.0.9-py3-none-any.whl)|
 
 </details>
 <a id="markdown-build-and-run-instructions" name="build-and-run-instructions"></a>
