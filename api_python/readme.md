@@ -36,7 +36,7 @@
 - Python >= 3.9
 - pip
 
-Refer to the main README for Python installation details: [parent readme](../../readme.md)
+Refer to the python quick start for Python installation details: [python_quick_start](../linked_md/python_quick_start.md)
 
 <a id="markdown-install-python-module-kortex-api--the-needed-dependencies" name="install-python-module-kortex-api--the-needed-dependencies"></a>
 ## Install Kortex Python API and required dependencies  

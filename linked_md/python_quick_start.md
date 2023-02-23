@@ -10,8 +10,16 @@
 *
 -->
 
+<a id="markdown-description" name="description"></a>
+# Description
+
+Here is some information to help you start with python. This information will help new python users.
+
+
 <!-- TOC -->
 
+<h1>Table of Contents </h1>
+- [Description](#description)
 - [Python setup](#python-setup)
     - [Installation of Python & Python modules](#installation-of-basic-python--python-modules)
         - [Required installations](#mandatory-installations)
@@ -35,10 +43,15 @@
  <details open>
  <summary>Linux (Ubuntu)</summary>
 
- <h4>Install Python 3.9.13</h4>  
+ <h4>Install Python 3.9</h4>  
 
  ```sh
  sudo apt-get install python3.9
+ ```
+
+
+ <h4>Install Pip</h4>  
+ ```sh
  sudo apt-get install python3-pip  
  python3.9 -m pip install --upgrade pip --user
  ```

@@ -12,6 +12,11 @@
 
 <h1>KINOVA<sup>®</sup> KORTEX 3™ API Reference</h1>
 
+<a id="markdown-description" name="description"></a>
+# Description
+
+The official repository contains documentation and examples explaining how to use the KINOVA<sup>®</sup> KORTEX 3™ API client with Python. The repository has been tested on Windows 10 and Ubuntu 20.04.
+
 <h1>Table of Contents</h1>
 
 <!-- TOC -->
@@ -27,11 +32,6 @@
       - [Useful Links](#useful-links)
 
 <!-- /TOC -->
-
-<a id="markdown-description" name="description"></a>
-# Description
-
-The official repository contains documentation and examples explaining how to use the KINOVA<sup>®</sup> KORTEX 3™ API client with Python. The repository has been tested on Windows 10 and Ubuntu 20.04.
 
 <a id="markdown-licensing" name="licensing"></a>
 # Licensing 
@@ -60,6 +60,10 @@ When using the Kortex API a developer will need to understand the Google Protoco
 
   Here is some general information about the Python interpreter and the pip module manager.  
   - [Python General Information](./linked_md/python_quick_start.md)
+  - [API mechanism](./linked_md/python_api_mechanism.md)
+  - [Transport / Router / Session / Notification](./linked_md/python_transport_router_session_notif.md)
+  - [Device routing](./linked_md/python_device_routing.md)
+  - [Error management](./linked_md/python_error_management.md)
   - [Examples](./api_python/readme.md)
 
 <a id="markdown-quick-start-howto-modbus" name="quick-start-howto-modbus"></a>
